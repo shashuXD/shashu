@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: red;
+}
+
+.contact-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: darkred;
+}
+</style>
+</head>
+<body>
+
+<center><h2>Contact Form</h2></center>
+
+<div class="contact-form">
+  <form id="myForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script>
+document.getElementById("myForm").addEventListener("submit", function(event){
+  event.preventDefault();
+  alert("Form Submitted Successfully!");
+});
+</script>
+
+</body>
+</html>

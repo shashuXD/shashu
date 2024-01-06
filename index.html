@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Poppins';font-size: 22px;
+        }
+
+        header {
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #363638;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h1 {
+            color:white;
+            text-shadow: #555;
+        }
+        h2 {
+            color:white;
+        }
+
+        p {
+            color: #f9f6f6;
+        }
+
+        .featured-content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+
+        .feature-box {
+            flex: 1;
+            padding: 1em;
+            text-align: center;
+            background-color:rgb(51, 50, 50);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+
+        }
+
+        .feature-box:hover {
+            transform: scale(1.05);
+        }
+    footer{
+        text-align: center;
+    }
+    </style>
+</head>
+<body background="C:\Users\shash\OneDrive\Desktop\IWD\llp.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <header>
+        <h1>SHASHANK GOWDA VS</h1>
+    </header>
+
+    <nav>
+        <a href="#"target=_blank>Home</a>
+        <a href="C:\Users\shash\OneDrive\Desktop\IWD\ABOUT (2).html">about</a>
+        <a href="C:\Users\shash\OneDrive\Desktop\IWD\contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Hi, i'm a web-developer.</h2>
+        <p>So here are things that you can know about me...</p>
+        <div class="featured-content">
+            <div class="feature-box">
+                <h3>PASSION</h3>
+                <p>Continuous Learning,Creativity and Problem-Solving,Thriving on Challenges</p>
+            </div>
+            <div class="feature-box">
+                <h3>SPORTS</h3>
+                <p>Good at football and cricket </p>
+            </div>
+            <div class="feature-box">
+                <h3>STUDY</h3>
+                <p>I'm a student of RVU who is currently puresuing (b.tech)</p>
+            </div>
+            <div class="feature-box">
+                <h3>PERSONAL PROJECTS</h3>
+                <p>To explore new techniques and showcase their skills.</p>
+            </div>
+            <div class="feature-box">
+                <h3>ACHIVEMENTS</h3>
+                <p>I've created websites like portfolio</p>
+            </div>
+            </div>
+        </div>
+        <h2>Thriving on Challenges</h2>
+        <p> Passionate developers embrace complex problems and see them as opportunities to learn and grow. 
+            They enjoy tackling coding issues and optimizing performance.</p>
+
+            <h2>Creativity and Problem-Solving</h2>
+            <p>They enjoy the creative aspect of designing and developing websites.
+                 They're excited about finding solutions to technical challenges,
+                  improving user experiences, and making designs visually appealing and functional.</p>
+                  <p>Passion in web development often drives individuals to not only excel in their technical skills but also to continuously innovate, 
+                    collaborate, and contribute positively to the field. 
+                    It's this enthusiasm that fuels their drive to create exceptional and impactful web experiences.</p>
+    </section>
+    <footer>
+        <p>Author: Shashank Gowda VS<br>
+        <a> shashankgowdaa22@gmail.com</a></p>
+      </footer>
+      
+    <script>
+        function changeHeaderColor()
+         {
+            document.getElementById("mainHeader").style.backgroundColor = "rgb(255, 193, 7)";
+        }
+
+        function restoreHeaderColor() 
+        {
+            document.getElementById("mainHeader").style.backgroundColor = "rgb(155, 107, 17)";
+        }
+
+        function showAdmissionForm()
+         {
+            alert("Redirecting to Admission Form!");
+        }
+    </script>
+
+</body>
+</html>

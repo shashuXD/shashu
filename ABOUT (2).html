@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+00    <title>portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Poppins';font-size: 22px;
+        }
+
+        header {
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #363638;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h1 {
+            color:white;
+            text-shadow: #555;
+        }
+        h2 {
+            color:white;
+        }
+
+        p {
+            color: #f9f6f6;
+        }
+
+        .featured-content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+
+        .feature-box {
+            flex: 1;
+            padding: 1em;
+            text-align: center;
+            background-color:rgb(202, 43, 43);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+
+        }
+
+        .feature-box:hover {
+            transform: scale(1.05);
+        }
+        #image{
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .feature-box:hover {
+            transform: scale(1.05);
+        }
+    footer{
+        text-align: center;
+    }
+    </style>
+</head>
+<body background="C:\Users\shash\OneDrive\Desktop\IWD\llp.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <header>
+        <h1>ABOUT</h1>
+    </header>
+
+    <nav>
+        <a href="C:\Users\shash\OneDrive\Desktop\IWD\index.html">Home</a>
+        <a href=>about</a>
+        <a href="C:\Users\shash\OneDrive\Desktop\IWD\contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>HELLO I'M SHASHANK GOWDA</h2>
+        <img src="C:\Users\shash\Downloads\shashu.jpg" height="500px" width="500px" id="image"  >
+     <h2>STUDYIED AT:
+     </h2>
+       <p>Jss public school</p> 
+       <h2>PUC:</h2>
+      <p>Expert pre university collage</p>
+      <h2>EXPERIENCE</h2>
+      <p>Hello! I'm Shashank Gowda VS, a passionate and creative individual with a deep love for web development. From coding elegant and efficient websites to crafting visually appealing user interfaces, I thrive on turning ideas into digital reality. My journey in the world of technology started with a curiosity that grew into a dedicated pursuit of knowledge. With a background in CS, I bring a unique blend of technical skills and a keen eye for design. I am committed to staying on the cutting edge of emerging technologies to deliver innovative and user-centric solutions. When I'm not immersed in code, you can find me exploring new technologies, collaborating on exciting projects, or enjoying a good book. Let's connect and bring your digital visions to life!</p>
+
+
+    </section>
+    <footer>
+        <p>Author: Shashank Gowda VS<br>
+        <a> shashankgowdaa22@gmail.com</a></p>
+      </footer>
+    <script>
+        function changeHeaderColor()
+         {
+            document.getElementById("mainHeader").style.backgroundColor = "rgb(255, 193, 7)";
+        }
+
+        function restoreHeaderColor() 
+        {
+            document.getElementById("mainHeader").style.backgroundColor = "rgb(155, 107, 17)";
+        }
+
+        function showhome()
+         {
+            alert("Redirecting to home!");
+        }
+    </script>
+
+</body>
+</html>
